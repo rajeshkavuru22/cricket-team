@@ -1,0 +1,17 @@
+GET http://localhost:4000/players/
+###
+GET http://localhost:4000/players/9/
+###
+PUT http://localhost:4000/players/1/
+Content-Type: application/json
+{
+"playerName": "Rajesh Kavuru"
+}
+###
+GET http://localhost:4000/players/7/matches
+###
+GET http://localhost:4000/matches/18/
+###
+GET http://localhost:4000/matches/1/players 
+###
+GET http://localhost:4000/players/2/playerScores
